@@ -1,0 +1,13 @@
+syntax = "proto2";
+
+package protobuf;
+
+message Person {
+    optional string name = 1;
+    optional int32 locX = 2;
+    optional int32 locY = 3;
+    optional int32 numP = 4;
+    optional int32 destX = 5;
+    optional int32 destY = 6;
+  
+}  
